@@ -1,0 +1,95 @@
+
+input {
+  padding: 5px;
+  border-radius: 10px;
+}
+
+button {
+  padding: 7px;
+  border-radius: 10px;
+  border-color: yellow;
+  font-size: 20px;
+  animation: button 0.5s linear 0s infinite;
+}
+
+button:hover {
+  padding: 8px;
+}
+
+@keyframes title {
+  0%   {background-color:red; color: green;transform: scale(1, 1);}
+  25%  {background-color:yellow; color: purple; transform: scale(1, 0.99);}
+  50%  {background-color:blue; color: orange; transform: scale(0.99, 0.99);}
+  75%  {background-color:green; color: red; transform: scale(1, 0.99);}
+  100% {background-color:red; color: green;transform: scale(1, 1);}
+}
+
+@keyframes button {
+  0%   {background-color:yellow; border-color: gold}
+  50%  {background-color:gold; border-color: yellow}
+  100% {background-color:yellow; border-color: gold}
+}
+
+#title {
+  background-color: yellow;
+  text-align: center;
+  border: 5px solid gold;
+  border-radius: 10px;
+  padding: 100px;
+  font-size: 100px;
+  font-family: burbank;
+  animation: title 2s linear 0s infinite;
+  width: 65%;
+  height: 65%;
+  margin: auto;
+}
+
+#title:hover {
+  border: 10px solid gold;
+}
+
+#claimtext {
+  font-size: 45px;
+  font-family: monospace;
+}
+
+#mainText {
+  animation: title 2s linear 0s infinite;
+  height: 70%;
+  width: 70%;
+}
+
+#content {
+  border: 2px solid slategray;
+  border-radius: 10px;
+  display: none;
+  margin: auto;
+  width: 60%;
+}
+
+#content-title {
+  text-align: center;
+  font-size: 40px;
+}
+#line {
+  border: 2px solid slategray;
+  border-bottom: 0px;
+}
+
+#form {
+  margin: 10px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+#warn {
+  font-size: 10px;
+}
+
+#vbuck {
+  width: 65px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
